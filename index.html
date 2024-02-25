@@ -3,9 +3,720 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- <link rel="stylesheet" href="slick/slick.css"> -->
+    <!-- <link rel="stylesheet" href="slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Lilita+One&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <title>FoodHome</title>
 </head>
-<body>
+<body class="webBody">
+    <div class="loader">
+        <!-- <h1><span>Food</span> Home</h1> -->
+        <img src="img/logo.png" alt="logo" width="300">
+    </div>
+    <div class="bg-overlay"></div>
+    <header class="header page-header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav-logo"><img src="./img/logo.png" alt="Logo" width="180"></a>
+                <div class="nav-cart">
+                    <i class="bi bi-cart-plus"></i>
+                    <span>12</span>
+                </div>
+                <div class="nav-bar ">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="nav-menu">
+        <ul class="nav-menu-list">
+            <li class="nav-menu-link"><a href="#home">Home</a></li>
+            <li class="nav-menu-link"><a href="#event">Events</a></li>
+            <li class="nav-menu-link"><a href="#about">About Us</a></li>
+            <li class="nav-menu-link"><a href="#menu">Menu</a></li>
+            <li class="nav-menu-link"><a href="#gallery">Gallery</a></li>
+            <li class="nav-menu-link"><a href="#reviews">Testimonial</a></li>
+            <li class="nav-menu-link"><a href="#contact">Contact US</a></li>
+            <li class="nav-menu-link"><a href="#media">Socail Media</a></li>
+        </ul>
+    </div>
+    <div class="post">
+        <a href="https://www.instagram.com/amit.kumar.code/"><h2>Daily Post</h2></a>
+    </div>
+    <div class="nav-cart-bar">
+        <div class="nav-cart-body">
+            <div class="nav-cart-header">
+                <h2>Cart</h2>
+                <span class="nav-cart-bar-close"><i class="bi bi-x"></i></span>
+            </div>
+            <div class="nav-cart-content">
+                <div class="nav-cart-item">
+                    <img src="img/f1.jpg" alt="food-img" width="110">
+                    <div class="nav-cart-item-content">
+                        <h6>Lorem, ipsum.</h6>
+                        <small>Lorem ipsum dolor sit amet.</small>
+                        <div class="nav-cart-item-btn">
+                            <span>$9.00</span> 
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type="number" value="1">
+                            <button><i class="bi bi-plus"></i></button>
+                            <button class="trash-kumar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-cart-item">
+                    <img src="img/f1.jpg" alt="food-img" width="110">
+                    <div class="nav-cart-item-content">
+                        <h6>Lorem, ipsum.</h6>
+                        <small>Lorem ipsum dolor sit amet.</small>
+                        <div class="nav-cart-item-btn">
+                            <span>$9.00</span> 
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type="number" value="1">
+                            <button><i class="bi bi-plus"></i></button>
+                            <button class="trash-kumar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-cart-item">
+                    <img src="img/f1.jpg" alt="food-img" width="110">
+                    <div class="nav-cart-item-content">
+                        <h6>Lorem, ipsum.</h6>
+                        <small>Lorem ipsum dolor sit amet.</small>
+                        <div class="nav-cart-item-btn">
+                            <span>$9.00</span> 
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type="number" value="1">
+                            <button><i class="bi bi-plus"></i></button>
+                            <button class="trash-kumar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-cart-item">
+                    <img src="img/f1.jpg" alt="food-img" width="110">
+                    <div class="nav-cart-item-content">
+                        <h6>Lorem, ipsum.</h6>
+                        <small>Lorem ipsum dolor sit amet.</small>
+                        <div class="nav-cart-item-btn">
+                            <span>$9.00</span> 
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type="number" value="1">
+                            <button><i class="bi bi-plus"></i></button>
+                            <button class="trash-kumar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-cart-item">
+                    <img src="img/f1.jpg" alt="food-img" width="110">
+                    <div class="nav-cart-item-content">
+                        <h6>Lorem, ipsum.</h6>
+                        <small>Lorem ipsum dolor sit amet.</small>
+                        <div class="nav-cart-item-btn">
+                            <span>$9.00</span> 
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type="number" value="1">
+                            <button><i class="bi bi-plus"></i></button>
+                            <button class="trash-kumar"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav-cart-footer">
+                <a href="#">add More</a>
+                <a href="#">Checkout</a>
+            </div>
+        </div>
+    </div>
+
+<main>
+    <div id="home"></div>
+    <div class="banner-section" >
+        <div class="container">
+            <div class="banner-slider banner-slider-class">
+                <div class="banner-left-slide ">
+                    <div class="banner-text">
+                        <h1>Spicy Shahi Paneer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Harum laboriosam similique blanditiis doloremque laborum 
+                             alias dignissimos maiores velit quos cupiditate?</p>
+                        <h4>Just/<span>Rs.199</span></h4>
+
+                        <button>Order Now</button>
+                    </div>
+                    <div class="banner-img">
+                            <img src="./img/slide-1.png" alt="slide-1" width="400" class="animation-class-rotate">
+                    </div>
+                </div>
+                <div class="banner-left-slide ">
+                    <div class="banner-text">
+                        <h1>Spicy Shahi Paneer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Harum laboriosam similique blanditiis doloremque laborum 
+                             alias dignissimos maiores velit quos cupiditate?</p>
+                        <h4>Just/<span>Rs.199</span></h4>
+
+                        <button>Order Now</button>
+                    </div>
+                    <div class="banner-img">
+                            <img src="./img/slide-2.png" alt="slide-2" width="400" class="animation-class-rotate">
+                    </div>
+                </div>
+                <div class="banner-left-slide ">
+                    <div class="banner-text">
+                        <h1>Spicy Shahi Paneer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Harum laboriosam similique blanditiis doloremque laborum 
+                             alias dignissimos maiores velit quos cupiditate?</p>
+                        <h4>Just/<span>Rs.199</span></h4>
+
+                        <button>Order Now</button>
+                    </div>
+                    <div class="banner-img">
+                            <img src="./img/slide-3.png" alt="slide-3" width="400" class="animation-class-rotate">
+                    </div>
+                </div>
+                <div class="banner-left-slide ">
+                    <div class="banner-text">
+                        <h1>Spicy Shahi Paneer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Harum laboriosam similique blanditiis doloremque laborum 
+                             alias dignissimos maiores velit quos cupiditate?</p>
+                        <h4>Just/<span>Rs.199</span></h4>
+
+                        <button>Order Now</button>
+                    </div>
+                    <div class="banner-img">
+                            <img src="./img/slide-4.png" alt="slide-4" width="400" class="animation-class-rotate">
+                    </div>
+                </div>
+                <div class="banner-left-slide ">
+                    <div class="banner-text">
+                        <h1>Spicy Shahi Paneer</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                             Harum laboriosam similique blanditiis doloremque laborum 
+                             alias dignissimos maiores velit quos cupiditate?</p>
+                        <h4>Just/<span>Rs.199</span></h4>
+
+                        <button>Order Now</button>
+                    </div>
+                    <div class="banner-img">
+                            <img src="./img/slide-5.png" alt="slide-5" width="400" class="animation-class-rotate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="event"></div>
+    <section class="event" >
+        <div class="container">
+            <div class="eventDiv">
+                <div class="event-card">
+                    <h3>Lorem Ipsum Write to</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Excepturi nulla veniam consequatur voluptatem impedit
+                          omnis sint hic fugiat natus velit.</p>
+                </div>
+                <div class="event-card">
+                    <h3>Lorem Ipsum Write to</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Excepturi nulla veniam consequatur voluptatem impedit
+                          omnis sint hic fugiat natus velit.</p>
+                </div>
+                <div class="event-card">
+                    <h3>Lorem Ipsum Write to</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Excepturi nulla veniam consequatur voluptatem impedit
+                          omnis sint hic fugiat natus velit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="about"></div>
+    <section class="about-section" >
+        <div class="container">
+            <div class="aboutDiv">
+                <div class="about-col">
+                    <img src="img/f11.jpg" alt="about-img" width="450">
+                </div>
+                <div class="about-col about-col2">
+                    <h4>About Us</h4>
+                    <h2>Lorem ipsum create</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Illo ex neque non hic modi voluptate ullam impedit sit 
+                        provident, animi dolorem maiores amet harum eos. Molestiae 
+                        minima labore omnis aliquam vero quas. Esse
+                         delectus tempore odit quaerat qui ipsa nostrum repudiandae,
+                          quas asperiores numquam, animi dolorem maiores amet harum eos. Molestiae 
+                          minima labore omnis aliquam vero quas. Esse
+                           delectus tempore odit quaerat qui ipsa deserunt maxime provident reiciendis
+                           voluptatum eveniet!</p>
+                    <button class="food-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="qoutes"></div>
+    <section class="qoutes" >
+        <div class="container">
+            <div class="qoutesDiv qoute-slider-class">
+                <div class="qoutes-col">
+                    <h3>Lorem Ipsums</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo officiis accusamus est 
+                        laudantium praesentium dolor vel, nemo, porro autem rerum voluptatum! Ea magnam similique saepe 
+                        impedit! Fugiat dicta eligendi nam repellendus, 
+                        aperiam culpa tempora facilis molestiae est nulla earum modi sit a, perspiciatis deserunt sint 
+                        quaerat dolorum exercitationem? Nesciunt.</p>
+                        <button class="food-btn">Learn More</button>
+                </div>
+                <div class="qoutes-col">
+                    <h3>Lorem Ipsums</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo officiis accusamus est 
+                        laudantium praesentium dolor vel, nemo, porro autem rerum voluptatum! Ea magnam similique saepe 
+                        impedit! Fugiat dicta eligendi nam repellendus, 
+                        aperiam culpa tempora facilis molestiae est nulla earum modi sit a, perspiciatis deserunt sint 
+                        quaerat dolorum exercitationem? Nesciunt.</p>
+                        <button class="food-btn">Learn More</button>
+                </div>
+                <div class="qoutes-col">
+                    <h3>Lorem Ipsums</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo officiis accusamus est 
+                        laudantium praesentium dolor vel, nemo, porro autem rerum voluptatum! Ea magnam similique saepe 
+                        impedit! Fugiat dicta eligendi nam repellendus, 
+                        aperiam culpa tempora facilis molestiae est nulla earum modi sit a, perspiciatis deserunt sint 
+                        quaerat dolorum exercitationem? Nesciunt.</p>
+                        <button class="food-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="menu"></div>
+    <section class="menu-section" >
+        <div class="container">
+            <div class="menu-col">
+            <div class="menu-heading">
+                <h2><span>Our</span> Menu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quibusdam veritatis
+                     cum architecto iure quia ipsam, tenetur ad debitis cumque! Fugiat ad 
+                     eum ut voluptate cumque, aliquam facilis laboriosam dicta.</p>
+            </div>
+            <div class="meun-item">
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f1.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f2.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f3.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto </small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f4.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f5.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f6.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f7.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+                <div class="menu-a">
+                    <div class="m-img">
+                        <img src="img/f8.jpg" alt="menu-img" width="200">
+                    </div>
+                    <div class="i-content">
+                        <h6>Lorem ipsums</h6>
+                        <small>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Fugiat ipsa quas expedita eaque 
+                            distinctio! Architecto asperiores nisi
+                             tempora laudantium a..</small>
+                             <div class="btn-t-menu">
+                                <span>$9.00</span> <button class="cart-kumar"><i class="bi bi-cart-plus"></i></button>
+                                <div class="btn-function">
+                                    <button><i class="bi bi-dash"></i></button>
+                                    <input type="number" value="1">
+                                    <button><i class="bi bi-plus"></i></button>
+                                </div>
+                             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-item">
+                <button class="food-btn">View More</button>
+            </div>
+        </div>
+        </div>
+    </section>
     
-</body>
+    <div id="gallery"></div>
+    <section class="gallery-section" >
+        <div class="container">
+            <div class="gallery-col">
+                <div class="gallery-heading">
+                    <h2><span>Our</span> Gallery</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem 
+                        eos beatae, sit inventore repellendus nostrum, earum minus modi c
+                        ulpa voluptatibus cumque, eligendi vero quasi voluptates totam maxime
+                         tenetur praesentium perspiciatis.</p>
+                </div>
+                <div class="gallery-pics">
+                    <div class="gallery-photo"><img src="img/g1.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g2.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g3.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g4.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g5.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g6.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g7.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g8.jpg" alt="img"></div>
+                    <div class="gallery-photo"><img src="img/g9.jpg" alt="img"></div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div id="reviews"></div>
+    <section class="review-section" >
+        <div class="container">
+            <div class="review-col">
+                    <div class="review-heading">
+                        <h4>Testimonials</h4>
+                        <h2>Lorem Ipsums research</h2>
+                    </div>
+                    <div class="rivew-stars">
+                        <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                        <h4>Google Overroll Rating 4.5</h4>
+                    </div>
+                    <div class="review-slider review-slider-class">
+                        <div class="review-box">
+                            <h3>Amit Kumar</h3>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sequi a quas voluptatum iste qui aliquam magni ullam 
+                                amet suscipit. Temporibus similique 
+                                excepturi nemo reiciendis eveniet maiores unde, ipsa odio obcaecati!</p>
+                        </div>
+                        <div class="review-box">
+                            <h3>Amit Kumar</h3>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sequi a quas voluptatum iste qui aliquam magni ullam 
+                                amet suscipit. Temporibus similique 
+                                excepturi nemo reiciendis eveniet maiores unde, ipsa odio obcaecati!</p>
+                        </div>
+                        <div class="review-box">
+                            <h3>Amit Kumar</h3>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sequi a quas voluptatum iste qui aliquam magni ullam 
+                                amet suscipit. Temporibus similique 
+                                excepturi nemo reiciendis eveniet maiores unde, ipsa odio obcaecati!</p>
+                        </div>
+                        <div class="review-box">
+                            <h3>Amit Kumar</h3>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sequi a quas voluptatum iste qui aliquam magni ullam 
+                                amet suscipit. Temporibus similique 
+                                excepturi nemo reiciendis eveniet maiores unde, ipsa odio obcaecati!</p>
+                        </div>
+                        <div class="review-box">
+                            <h3>Amit Kumar</h3>
+                                <span>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Sequi a quas voluptatum iste qui aliquam magni ullam 
+                                amet suscipit. Temporibus similique 
+                                excepturi nemo reiciendis eveniet maiores unde, ipsa odio obcaecati!</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div id="contact"></div>
+    <section class="contact-section" >
+        <div class="container">
+            <div class="contact-col">
+                <div class="contact-contnet">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <input type="number" name="number" placeholder="Phone no.">
+                        <textarea placeholder="Message" cols="3"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-img">
+                    <img src="img/f10.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+</main> 
+<footer id="media">
+    <div class="container">
+        <div class="footer-col">
+            <div class="footer-logo">   
+                <a href="#"><img src="img/logo.png" alt="logo" width="200"></a>
+                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Placeat, at eveniet. Blanditiis minus consequuntur quae amet
+                     doloribus cum voluptatum culpa !</small>
+                <a href="#"><span><i class="bi bi-telephone-fill"></i></span> +91 000-000-0000</a>
+                <a href="#"><span><i class="bi bi-envelope-fill"></i></span> AB, mohali 360,AP-D sector-19</a> 
+                <div class="footer-pic">
+                    <img src="img/f6.jpg" alt="img" width="150">
+                    <img src="img/f8.jpg" alt="img" width="150">
+                    <img src="img/f7.jpg" alt="img" width="150">
+                </div>
+            </div>
+            <div class="footer-pic-fot">
+               <a href="https://www.instagram.com/amit.kumar.code/"><img src="img/insta.png" alt="img"></a>
+               <a href="https://www.instagram.com/amit.kumar.code/"><img src="img/facebook.png" alt="img"></a>
+               <a href="https://www.instagram.com/amit.kumar.code/"><img src="img/youtube.png" alt="img"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <small>Design by <a href="https://www.instagram.com/amit.kumar.code/">Amit.Designer</a> </small>
+</div>
+
+<!-- <script src="slick/jquery2.js"></script> -->
+<script src="js/custom.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/slick.min.js"></script>
+<script type="text/javascript">
+      
+      $(document).ready(function(){
+          $('.banner-slider-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 600,
+            slidesToShow: 1,
+            autoplay:false,
+            autoplaySpeed: 5000,
+            arrows:false,
+            vertical: true,
+            verticalSwiping: true,
+            responsive: [
+                {
+                breakpoint: 520,
+                settings: {
+                    vertical: false,
+            verticalSwiping: false,
+                }
+                }
+            ]
+          });
+
+          $('.qoute-slider-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            autoplay:true,
+            autoplaySpeed: 2000,
+            arrows:false,
+            vertical: true,
+            verticalSwiping: true,
+            responsive: [
+                {
+                breakpoint: 520,
+                settings: {
+                    vertical: false,
+            verticalSwiping: false,
+            autoplay:true,
+            slidesToShow: 1
+                }
+                }
+            ]
+          });
+
+          $('.review-slider-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            autoplay:true,
+            autoplaySpeed: 3000,
+            arrows:true,
+            responsive: [
+                {
+                breakpoint: 520,
+                settings: {
+                    vertical: false,
+            verticalSwiping: false,
+            slidesToShow: 1,
+            arrows:false,
+                }
+                }
+            ]
+          });
+          
+      });
+    </script>
+ </body>
 </html>
