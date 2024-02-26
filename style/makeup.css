@@ -1302,16 +1302,16 @@ footer {
   .review-section{padding: 0 15px;}
   .review-section .review-col{padding:20px 15px;}
   footer{padding: 50px 15px;}
-  .footer-col .footer-pic-fot img {width: 118px;}
+  .footer-col .footer-pic-fot img {width: 101px;}
   .menu-section .menu-col .meun-item .menu-a .i-content .btn-t-menu .btn-function{width: 75%;}
-  .menu-section .menu-col .meun-item .menu-a .i-content .btn-t-menu{display: flex;align-items: center;}
+  .menu-section .menu-col .meun-item .menu-a .i-content .btn-t-menu{display: flex;align-items: center; margin-top: 20px;}
   .menu-section .menu-col .meun-item .menu-a .i-content .btn-t-menu .cart-kumar{right: unset; order: 3;}
   .contact-section .contact-col .contact-contnet::before {left: -8rem;bottom: 7rem;}
     .review-section .review-col::after {right: -8rem; top: 11rem;}
     .qoutes-col{text-align: center;}
     .qoutes .qoutesDiv .qoutes-col .food-btn{float:unset;}
     .qoutes .qoutesDiv .qoutes-col p{text-align: justify;}
-    .about-section .aboutDiv .about-col2::after {right: -35%;}
+    .about-section .aboutDiv .about-col2::after {right: -57%;}
     .about-section .aboutDiv .about-col2 p{text-align: justify;}
     .nav-menu {
       top: 8rem;
