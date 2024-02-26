@@ -33,7 +33,10 @@ document.addEventListener('readystatechange', e => {
       document.querySelector('.loader').style.display= "none";
     }else{
         // document.querySelector('.webBody').style.display= "none";
-        document.querySelector('.loader').style.display= "flex";
+        setTimeout(()=>{
+          document.querySelector('.loader').style.display= "flex";
+
+        },100)
     }
   });
 
