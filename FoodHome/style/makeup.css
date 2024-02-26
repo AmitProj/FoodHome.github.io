@@ -46,7 +46,7 @@ h2>span{
   justify-content: center;
   background: #d9d54b;
   z-index: 999;
-  /* display: none; */
+  display: none;
 }
 /* .loader h1{
   font-size: 100px;
