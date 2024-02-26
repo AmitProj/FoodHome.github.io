@@ -1255,8 +1255,8 @@ footer {
   .banner-section .animation-class-rotate{width: 200px; height: 200px;}
   .banner-section .banner-left-slide .banner-text button{margin: 2rem auto;}
   .banner-section .banner-left-slide .banner-text h1 {font-size: 2.5rem;padding: 10px; line-height: 2.2rem;}
-  .banner-section .banner-left-slide .banner-text p{max-width: 100%; padding: 0 10px; font-size: 1.10rem;}
-  .post a h2{padding: 100px 0; text-align: start;justify-content: flex-start; font-size: 2rem; text-wrap:nowrap ;}
+  .banner-section .banner-left-slide .banner-text p{max-width: 100%; padding: 0 10px; font-size: 2rem;}
+  .post a h2{padding: 100px 0; text-align: start;justify-content: flex-start; white-space:none; font-size: 1rem; text-wrap:nowrap ;}
   .event{padding: 15px;}
   .event .eventDiv {flex-wrap: wrap;}
   .event .eventDiv .event-card {flex: 100%; margin-bottom: 12px;}
