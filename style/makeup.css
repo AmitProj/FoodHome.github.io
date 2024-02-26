@@ -1245,7 +1245,7 @@ footer {
     padding: 10px;
   }
   .post{height: 55%;}
-  .nav-cart-bar{right: 0.50rem; height: 85%; width: 360px;}
+  .nav-cart-bar{right: 0rem; height: 90%; width: 360px;}
   .nav-cart-item img {
     border-radius: 5px;
     height: 67px;
