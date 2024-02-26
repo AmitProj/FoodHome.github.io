@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/boot.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>DESIGNER.COM</title>
+</head>
+<body class="webBody">
+    <!-- <div class="loader"> -->
+        <!-- <h1><span>Food</span> Home</h1> -->
+        <!-- <img src="img/logo.png" alt="logo" width="300">
+    </div>
+    <div class="bg-overlay"></div> -->
+    
+<main>
+    <header class="col-12 header">
+        <h1>DESIGNER.COM</h1>
+    </header>
+    <section class="all-sites">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 content">
+                    <div class="row content-items">
+                        <div class="col-lg-4 web-item">
+                            <div class="web-item-content">
+                                <div class="site-screen">
+                                    <iframe src="http://127.0.0.1:5501/index.html" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="site-title">
+                                    <a href="#">FOOD-HOME</a> 
+                                    <div class="details">
+                                        <small class="code-title">CODE:<span>Single Page</span></small><br>
+                                        <small class="code-langs">HTML, Css, Bootstrap-icons, Javascript, Slick-slider</small>
+                                    </div>
+                                </div>
+                                <div class="button-lok">
+                                    <a href="http://127.0.0.1:5501/index.html" target="_blank">View</a>
+                                    <a href="#">Git Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+    </section>
+      
+    <footer class="col-12 footer">
+        <p class="owner"><a href="#"><img src="img/f1.jpg" alt="owner" >Design By Amit Kumar</a> </p>
+        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+    </footer>
+</main> 
+
+
+<!-- <script src="slick/jquery2.js"></script> -->
+<script src="js/custom.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/boot.js"></script>
+<script src="js/popper.js"></script>
+<script type="text/javascript">
+      
+      $(document).ready(function(){
+          $('.banner-slider-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 600,
+            slidesToShow: 1,
+            autoplay:false,
+            autoplaySpeed: 5000,
+            arrows:true
+          });
+
+          $('.qoute-slider-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            autoplay:true,
+            autoplaySpeed: 2000,
+            arrows:true,
+            vertical: true,
+            verticalSwiping: true,
+            responsive: [
+                {
+                breakpoint: 520,
+                settings: {
+                    vertical: false,
+            verticalSwiping: false,
+            autoplay:true,
+            slidesToShow: 1
+                }
+                }
+            ]
+          });
+
+          $('.review-slider-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            autoplay:true,
+            autoplaySpeed: 3000,
+            arrows:true,
+            responsive: [
+                {
+                breakpoint: 520,
+                settings: {
+                    vertical: false,
+            verticalSwiping: false,
+            slidesToShow: 1,
+            arrows:false,
+                }
+                }
+            ]
+          });
+          
+      });
+    </script>
+ </body>
+</html>

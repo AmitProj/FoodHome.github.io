@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+html,body{scroll-behavior: smooth;}
+main{
+  padding:0px 0px;
+  background: #252525;
+  background-image: url('https://source.unsplash.com/random/?electronic,gaming-pc');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  animation: rendomImg 30s linear infinite;
+  position: relative;
+}
+
+.all-sites{
+  padding: 0px;
+  border-radius: 10px;
+  height: calc(100% - 130px);
+  overflow-y: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background: #ffffff1a;
+  backdrop-filter: blur(80px); 
+  border-radius:20px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddddddbb; 
+  border-radius:20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.header{
+  padding: 10px ;
+  background: #ffffff3d;
+  backdrop-filter: blur(245px);
+  margin-bottom: 15px;
+  height: 55px;
+}
+.header h1{margin: 0;font-size: 30px;padding: 0 20px; color: #fff;}
+.content{
+  padding: 10px;
+  /* background: #ffffff1a;
+  backdrop-filter: blur(80px); */
+  height: 100%;
+  border-radius: 10px;
+}
+.content-items{
+  padding: 0px;
+  overflow-y: auto;
+}
+.web-item{
+  padding: 12px;
+  border-radius: 5px;
+}
+.web-item .web-item-content{
+  /* background: #ffffff66;
+  backdrop-filter: blur(12px); */
+  background: #ffffff3d;
+  backdrop-filter: blur(245px);
+  border-radius: 5px;
+  padding: 10px;
+}
+.site-screen iframe{
+  width: 100%;
+  border-radius: 5px ;
+  height: 250px;
+}
+.site-title a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  display: inline-block;
+  margin: 10px 0 0 0; 
+}
+.code-title{
+  color: #ff00b3;
+  background: #ffffff;
+  padding: 0 10px;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.code-title span{
+  background: #252525;
+  padding: 1px 10px;
+  margin-right: -10px;
+  color: #fff;
+  font-size: 13px;
+}
+.code-langs{    
+  font-size: 11px;
+  line-height: 17px;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  word-spacing: 1px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.button-lok{
+  display: flex;
+  gap: 5px;
+}
+.button-lok a{
+ text-decoration: none;
+ color: #fff;
+ background: #ffffff00;
+ backdrop-filter: blur(20px);
+ padding: 3px 20px;
+ text-align: center;
+ text-transform: uppercase;
+ flex: 1;
+ margin-top: 10px;
+ font-size: 14px;
+ border-radius: 3px;
+ transition: all 0.2s ease;
+}
+.button-lok a:hover{
+  background: #252525;
+  transition: all 0.1s ease;
+}
+.footer{
+  padding: 5px 20px;
+  background: #ffffff3d;
+  backdrop-filter: blur(245px);
+  display: flex;
+  margin-top: 15px;
+  height: 45px;
+}
+.social-link{
+  padding: 5px 10px;
+  background: #ffffff3d;
+  backdrop-filter: blur(245px);
+  margin: 0 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+}
+.footer p{margin: 0; margin-right: auto;}
+.owner img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  margin-right: 10px;
+}
+.owner a{text-decoration: none; color: #fff; font-size: 14px;}
+@media (max-width:520px) {
+  .header h1{text-align: center; width: 100%;}
+  .social-link{padding: 5px 8px; margin: 0 5px;}
+}
