@@ -1245,12 +1245,12 @@ footer {
     padding: 10px;
   }
   .post{height: 55%;}
-  .nav-cart-bar{right: 0rem; height: 85%; width: 360px;}
+  .nav-cart-bar{right: 0rem; height: 80%; width: 360px;}
   .nav-cart-item img {
     border-radius: 5px;
     height: 67px;
 }
-  .nav-cart-content{height: 66vh;}
+  .nav-cart-content{height: 60vh;}
   .event,
   .qoutes{margin-top: 50px;}
   .about-section{margin-top: 20px;}
