@@ -1253,10 +1253,14 @@ footer {
   .contact-section{margin-bottom: 0;}
   .banner-section{background-position: 90%; height: 100vh;}
   .banner-section .animation-class-rotate{width: 150px; height: 150px;}
-  .banner-section .banner-left-slide .banner-text button{margin: 2rem auto;}
-  .banner-section .banner-left-slide .banner-text h1 {font-size: 2.5rem;padding: 10px; line-height: 2.2rem;}
+  .banner-section .banner-left-slide .banner-text button{margin: 1rem auto;}
+  .banner-section .banner-left-slide .banner-text h1 {font-size: 2.3rem;padding: 10px; line-height: 2.2rem;}
   .banner-section .banner-left-slide .banner-text p{max-width: 100%; padding: 0 10px; font-size: 0.90rem;line-height: 18px;}
-  .banner-section .banner-left-slide .banner-text H4{font-size: 1rem;}
+  .banner-section .banner-left-slide .banner-text H4{font-size: 1rem; margin-top: 1rem; padding: 10px;}
+  .banner-section .banner-slider .slick-dots li {
+    width: 50px;
+    height: 50px;
+}
   .post a h2{padding: 100px 0; text-align: start;justify-content: flex-start; white-space:none; font-size: 1rem; text-wrap:nowrap ;}
   .event{padding: 15px;}
   .event .eventDiv {flex-wrap: wrap;}
