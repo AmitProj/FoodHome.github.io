@@ -1332,6 +1332,6 @@ footer {
     }
     
 }
-@media (max-width:336px) {
-  
+@media (max-width:390px) {
+  .banner-section{height: 710px;}
 }
