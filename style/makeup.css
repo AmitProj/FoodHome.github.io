@@ -1252,7 +1252,7 @@ footer {
   .about-section{margin-top: 20px;}
   .contact-section{margin-bottom: 0;}
   .banner-section{background-position: 90%; height: 100vh;}
-  .banner-section .animation-class-rotate{width: 200px; height: 250px;}
+  .banner-section .animation-class-rotate{width: 200px; height: 200px;}
   .banner-section .banner-left-slide .banner-text button{margin: 2rem auto;}
   .banner-section .banner-left-slide .banner-text h1 {font-size: 2.5rem;padding: 10px; line-height: 2.2rem;}
   .banner-section .banner-left-slide .banner-text p{max-width: 100%; padding: 0 10px; font-size: 0.10rem;}
