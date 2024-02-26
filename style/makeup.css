@@ -454,7 +454,7 @@ main {
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 100vh;
   width: 100%;
   position: relative;
   z-index: 0;
